@@ -1,24 +1,30 @@
 {
-  "name": "nodejs-express-typescript-howto",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ornio-no/post-nodejs-express-typescript-howto.git"
-  },
-  "keywords": [
-    "Nodejs",
-    "typescript",
-    "express"
-  ],
-  "author": "Flamur Mavraj (Ornio AS)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ornio-no/post-nodejs-express-typescript-howto/issues"
-  },
-  "homepage": "https://github.com/ornio-no/post-nodejs-express-typescript-howto#readme"
+    "name": "nodejs-express-typescript-howto",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ornio-no/post-nodejs-express-typescript-howto.git"
+    },
+    "keywords": [
+        "nodejs",
+        "typescript",
+        "express"
+    ],
+    "author": "Flamur Mavraj (Ornio AS)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ornio-no/post-nodejs-express-typescript-howto/issues"
+    },
+    "homepage": "https://github.com/ornio-no/post-nodejs-express-typescript-howto#readme",
+    "devDependencies": {
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.3"
+    }
 }
