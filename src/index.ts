@@ -6,7 +6,7 @@ const port = 5000;
 
 // Application routing
 app.use('/', (req: Request, res: Response, next: NextFunction ) => {
-    res.status(200).send({data: 'Hello from Ornio AS'});
+    res.status(200).send({data: 'Hello from Ornio AS!'});
 });
 
 // Start server
